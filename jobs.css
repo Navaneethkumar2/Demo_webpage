@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Great+Vibes&family=Literata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&family=Great+Vibes&family=Literata:wght@300&family=Playfair+Display:ital@1&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Montserrat", sans-serif;
+    background-color: aliceblue;
+    scroll-behavior: smooth;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 1.1rem 5rem; */
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(180deg, #6fb4fd 0%, #5caafc 100%);
+}
+
+.brand a  {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+ul {
+
+
+    display: flex;
+    flex-direction: row;
+   
+}
+
+li {
+    list-style-type: none;
+    /* margin-left: 9rem; */
+    margin-left: 150px;
+    justify-content: space-evenly;
+    
+}
+
+li > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.0rem;
+    font-weight: 500;
+    
+
+}
+
+
+li::after {
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.2s ease-in-out;
+}
+
+li:hover::after {
+    width: 2rem;
+}
+.bg img{
+height: 92vh;
+background-size: cover;
+width: 98.9vw;
+}
+.bg h1{
+    margin-top: -500px;
+    margin-left: 100px;
+    font-size: 60px;
+    font-family: 'Bungee Spice', cursive;
+    word-spacing: 0.5cm;
+    
+}
+.bg p{
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: sans-serif;
+}
+.bg button{
+    margin-top: 100px;
+    margin-left: 130px;
+    padding: 20px 50px;
+    border-radius: 40%;
+    font-size: 20px;
+}
+.bg button a{
+    text-decoration: none;
+    color: blue;
+}
+.bg button:hover{
+    background: rgb(64, 187, 224);
+    box-shadow: 3px 3px 3px #101112, -3px -3px -3px #1b1d21;
+}
+.part2{
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(45deg, rgb(146, 42, 42), rgb(27, 27, 243));
+}
+.part2 h1{
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 50px 600px;
+}
+.part2 p{
+    color: white;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-top: 45px;
+    font-family: 'Alegreya', serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Literata', serif;
+}
+.part2 img{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    margin-left: 1100px;
+    margin-top: -350px;
+    border-radius: 150px 10px 150px 20px;
+}
+.part3{
+    height: 900px;
+    width: 100%;
+    background: linear-gradient(135deg, rgb(224, 217, 217) 40%, cyan);
+}
+.part3 h1{
+    padding: 40px 650px;
+}
+.part3 img {
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+}
+.img-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+}
+
+.grid-item{
+      width: 300px; max-height: 200px;
+      margin: 0 20px 150px;
+      cursor: pointer;
+
+      
+}
+
+.grid-item img{
+      display: block;
+      max-width: 100%;
+      border-radius: 50%;
+}
+.part4{
+    height: 800px;
+    width: 100%;
+    background:linear-gradient(135deg, rgb(224, 217, 217) 40%, rgb(0, 0, 0),rgb(212, 18, 128) 20%); ;
+}
+.part4 h1{
+    padding: 50px 650px;
+}
+
+
+h2{
+    margin-top: -20px;
+    margin-left: 500px;
+}
+ .trio {
+    margin-top:40px;
+    margin-left: 450px;
+    display: flex;
+    gap:80px;
+
+}
+.commet textarea{
+    margin-left:450px;
+    margin-top:60px;
+    width: 40%;
+    height: 200px;
+    padding: 10px;
+}
+   
+.border{
+    width: 200px;
+    height: 200px;
+    border: 10px solid white;
+    border-style: double ;
+    border-inline-color: rgb(166, 205, 166);
+    border-image: initial;
+    margin-top:-230px;
+    
+  
+}
+.name h3{
+    margin-left: 450px;
+    margin-top: 40px;
+}
+.name input{
+    margin-left:450px;
+    margin-top:30px;
+    height: 40px;
+    width: 230px;
+    border-radius:5px;
+    
+}
+.name button{
+    border-radius: 5px;
+    color: rgb(232, 216, 74);
+    transition: 0.4s all ease-in-out;
+}
+.name button:hover{
+    background: rgb(126,95,104);
+    background: linear-gradient(90deg, rgba(126,95,104,0.6617997540813201) 0%, rgba(253,29,71,0.7290266448376226) 77%, rgba(252,176,69,1) 100%);
+ box-shadow: rgba(4, 4, 232, 0.923) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+ color: rgb(0, 0, 0);
+ -ms-transform: scale(1.5); /* IE 9 */
+ -webkit-transform: scale(1.5); /* Safari 3-8 */
+ transform: scale(1.05); 
+}
+
+/* <!--foother--> */
+
+.foother{
+    height: 600px;
+    width: 100%;
+    background: rgb(109,95,126);
+    background: linear-gradient(90deg, rgba(195, 82, 199, 0.662) 0%, rgba(0, 0, 0, 0.729) 77%, rgb(13, 66, 88) 100%);
+    }
+    .icons{
+       position: absolute;
+        display: block;
+       
+        border-radius: 40%;
+        justify-items: center;
+        transition: 0.5s all ease-in-out;
+        margin-left: 700px;
+        margin-top: -250px;
+     }
+    .icons h2{
+        position: absolute;
+        margin-top: -130px;
+        margin-left: -10px;
+    }
+      .icons a{
+        height: 70px;
+        width: 70px;
+        background-ground:#f5f6fa;
+        transition: 0.5s all ease-in-out;
+        display: block;
+        border-radius: 100px 120px 120px 10px;
+    
+     }
+     .icon{
+        text-decoration: none;
+        background-color: #1832c7;
+        color: #f5f6fa;
+        border-radius: 50%;
+        box-shadow: 3px 3px 3px #06c9ec, -3px -3px -3px #0adfdf;
+        padding: 10px;
+       transform: scale(0.9);
+        
+     }
+     .icon i{
+        padding: 10.5px;
+        transform: scale(1.1);
+     } 
+    
+     .icon:hover {
+        animation: shadow .15s
+        ease-in-out;
+        background: #b03d17;
+        box-shadow: rgba(233, 12, 134, 0.995) 0px 6px 24px 0px, rgba(229, 17, 17, 0.6) 0px 0px 0px 1px;
+     }
+     .part2 .detail{
+        margin-top: 70px;
+    }
+    .detail h2{
+        position: absolute;
+        margin-top: -100px;
+    }
+    .detail{
+        display: block;
+        font-display: block;
+        margin-left: -150px;
+    
+        gap: 20px 20px;
+        justify-content: space-evenly;
+       
+    }
+    .tail{
+        margin-top: 110px;
+        margin-left: 570px;
+        color: aliceblue;
+    
+    }
+    .tail h4{
+    margin-top: 20px;
+    margin-left: -50px;
+    color: green;
+    }
+    .tail .tail1 i{
+        margin-left:-50px;
+        transform: scale(1.5);
+    
+        
+    }
+    .tail .tail2 i{
+        margin-left:-50px;
+        transform: scale(1.5);
+        
+        
+    }
+    .tail .tail3 i{
+        margin-left:-50px;
+        transform: scale(1.5);
+        
+        
+    }
+    .links{
+        margin-left: 90px;
+        margin-top:-360px;
+        text-justify: distribute;
+        
+    }
+    .links h2{
+        position: absolute;
+        margin-left: 20px;
+        text-align: left;
+        margin-top: -20px;
+        padding: -20px 10px;
+       
+    }
+    .link a{
+        display:block;
+       margin-top: 50px;
+       margin-left: 30px;
+        text-justify: distribute;
+        text-decoration: none;
+        justify-tracks: 20px;
+        
+    
+    }
+    .link a:hover{
+        color: rgb(243, 231, 8);
+        opacity: 0.5;
+       text-decoration-style: solid;
+       text-decoration: underline;
+       text-underline-position: below;
+       text-emphasis-color: black;
+      
+    }
+    
+    .subscribe{
+        position: absolute;
+        margin-left: 900px;
+        margin-top: -100px;
+        color: white;
+    }
+    .subscribe p{
+        position: absolute;
+        margin-top: -70px;
+        margin-left: 30px;
+        font-size: 20px;
+        font-family: 'Alegreya', serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Literata', serif;
+font-family: 'Playfair Display', serif;
+    }
+
+    .subscribe img{
+        position: absolute;
+        margin-top: -480px;
+        height: 500px;
+        width: 600px;
+    }
+    .subscribe input{
+        text-align: center;
+        padding: 20px 100px;
+        margin-left: -5px;
+    }
+    .subscribe  button {
+        cursor: pointer;
+        margin-left: 30px;
+        padding: 20px 50px;
+        background: rgb(218, 129, 154);
+
+    }
+    .subscribe button:hover{
+        background: rgb(126,95,104);
+    background: linear-gradient(90deg, rgba(126,95,104,0.6617997540813201) 0%, rgba(253,29,71,0.7290266448376226) 77%, rgba(252,176,69,1) 100%);
+ color: rgb(0, 255, 195);
+
+    }
+
+    
+    
+    
+    
+   
